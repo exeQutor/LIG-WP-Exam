@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif; }
+
+.header {
+  overflow-x: hidden;
+  margin-bottom: 20px;
+  padding: 20px 20px 0; }
+  .header .logo {
+    float: left; }
+  .header .menu__button {
+    float: right; }
+
+.menu {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-top: 90px; }
+  .menu ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    text-align: center; }
+    .menu ul > li {
+      margin-bottom: 1em; }
+      .menu ul > li a {
+        color: #333;
+        font-size: 30px;
+        text-decoration: none;
+        line-height: 30px; }
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden; }
+  .footer > .copyright-text {
+    color: #95989a;
+    font-size: 20px;
+    text-align: center;
+    margin: 0; }
+
+.scroll-top__button {
+  position: absolute;
+  right: 0;
+  margin-top: -75px; }
+
+.cards {
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .cards > .card {
+    border: 2px solid #95989a;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none; }
+    .cards > .card > img {
+      max-width: 100%;
+      min-width: 100%;
+      height: auto; }
+    .cards > .card > .card__content {
+      padding: 20px; }
+      .cards > .card > .card__content > .card__title {
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 30px; }
+      .cards > .card > .card__content > .card__date {
+        color: #95989a;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 30px; }
+  .cards > .more__button {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+
+.single-card > img {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto; }
+
+.single-card > .card__content {
+  padding: 10px 20px 0 20px; }
+  .single-card > .card__content > .card__title {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 40px; }
+  .single-card > .card__content > .card__date {
+    color: #95989a;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 30px; }
+  .single-card > .card__content > p {
+    color: #333;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 1.5em; }
+  .single-card > .card__content .top__button {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+.archive-headline {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px; }
+
+.wp-pagenavi {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  .wp-pagenavi > a,
+  .wp-pagenavi > span {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 2px solid #333;
+    display: inline-block;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+  .wp-pagenavi > a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none; }
+    .wp-pagenavi > a.previouspostslink {
+      background-image: url(../img/left-arrow.png);
+      background-repeat: no-repeat;
+      background-position: center; }
+    .wp-pagenavi > a.previouspostslink__disabled {
+      background-color: #ccc;
+      border-color: #ccc;
+      margin: 0; }
+    .wp-pagenavi > a.nextpostslink {
+      background-image: url(../img/right-arrow.png);
+      background-repeat: no-repeat;
+      background-position: center; }
+    .wp-pagenavi > a.nextpostslink__disabled {
+      background-color: #ccc;
+      border-color: #ccc;
+      margin: 0; }
